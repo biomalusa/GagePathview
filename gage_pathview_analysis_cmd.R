@@ -4,7 +4,7 @@ suppressMessages(require(docopt))
 
 #---------------Functions---------------------
 
-source("src/functions/gage_pathview_analysis_bb.R")
+source("gage_pathview_analysis_bb.R")
 
 #-------Input parsing----------
 'Usage:

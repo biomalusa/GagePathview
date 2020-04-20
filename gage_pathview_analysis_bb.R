@@ -39,7 +39,7 @@ prepare_data <- function(input_file){
 gage_pathview <- function(input_file, pgeomean = 0.25, output_folder = output_folder){
   
   message("Gage/Pathview Analysis Start")
-  source("src/functions/KEGG_gene_annotation.R")
+  source("KEGG_gene_annotation.R")
   
   #--------Libraries--------
   message("Loading Libraries")
